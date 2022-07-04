@@ -1,0 +1,107 @@
+﻿<ContentDialog
+    x:Class="FlashCard1.Pages.TopicPage.Dialog.PremiumDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FlashCard1.Pages.TopicPage.Dialog"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    CornerRadius="4"
+    Background="Black"
+    x:Name="PremiumDialog1">
+
+    <ContentDialog.Resources>
+        <SolidColorBrush x:Key="ContentDialogForeground" Color="White"/>
+    </ContentDialog.Resources>
+    <Grid RowSpacing="16">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button Padding="0" Background="Black" 
+                VerticalAlignment="Top"
+                HorizontalAlignment="Right"
+                Margin="0 -2 -2 0"
+                Click="CloseDialog">
+            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" 
+                      Glyph="&#xE711;"
+                      Foreground="White"
+                      FontSize="16"/>
+        </Button>
+        <TextBlock Text="Supercharge your learning"
+                   FontSize="20"
+                   FontWeight="SemiBold"
+                   HorizontalAlignment="Center"/>
+        <StackPanel Grid.Row="1"
+                    Orientation="Vertical"
+                    HorizontalAlignment="Center"
+                    Spacing="8">
+            <TextBlock Text="Unlimited decks"
+                       Style="{StaticResource SmallText}"
+                       TextAlignment="Center"/>
+            <TextBlock Text="Flipped card learning"
+                       Style="{StaticResource SmallText}"
+                       TextAlignment="Center"/>
+            <TextBlock Text="Memorize faster"
+                       Style="{StaticResource SmallText}"
+                       TextAlignment="Center"/>
+            <TextBlock Text="Ad-free studying"
+                       Style="{StaticResource SmallText}"
+                       TextAlignment="Center"/>
+        </StackPanel>
+        <Border Grid.Row="2" 
+                BorderBrush="{StaticResource ColorPrimary}"
+                BorderThickness="1"
+                Padding="12 4 12 4"
+                CornerRadius="4">
+            <Grid RowSpacing="4">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Annual Plan"
+                           FontWeight="SemiBold"
+                           Grid.Column="0"
+                           Grid.Row="0"/>
+                <TextBlock Text="$59.99/year"
+                           Style="{StaticResource SmallText}"
+                           Grid.Row="1"
+                           FontWeight="SemiLight"/>
+                <Border Grid.RowSpan="2" 
+                        Grid.Column="1"
+                        Background="{StaticResource ColorPrimary}"
+                        VerticalAlignment="Center"
+                        Padding="0 2 0 2"
+                        CornerRadius="4">
+                    <TextBlock Text="BEST VALUE"
+                               TextAlignment="Center"
+                               FontWeight="SemiBold"/>
+                </Border>
+            </Grid>
+        </Border>
+        <Button Grid.Row="3"
+                Background="{StaticResource ColorPrimary}"
+                Width="200"
+                CornerRadius="15"
+                HorizontalAlignment="Center">
+            <Button.Resources>
+                <ResourceDictionary Source="{Binding Source={StaticResource ButtonAcceptResource}}"/>
+            </Button.Resources>
+            <TextBlock Text="CONTINUE" CharacterSpacing="200"
+                       Foreground="White"
+                       FontWeight="SemiBold"/>
+        </Button>
+        <TextBlock Grid.Row="4" 
+                   Text="BILLED YEARLY, CANCEL ANYTIME"
+                   FontSize="10"
+                   TextAlignment="Center"
+                   />
+    </Grid>
+</ContentDialog>

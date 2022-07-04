@@ -1,0 +1,21 @@
+﻿    <Application.Resources>
+        <ResourceDictionary>
+
+            <ResourceDictionary.MergedDictionaries>
+                <!--  XAML Resources  -->
+                <controls:XamlControlsResources ControlsResourcesVersion="Version2" />
+
+                <!--  Converter Resources  -->
+                <ResourceDictionary Source="ms-appx:///Uwp.Core/Converter/Converter.xaml" />
+
+                <!--  Common Resources  -->
+                <ResourceDictionary Source="ms-appx:///MoneyLover.Style/String.xaml" />
+                <ResourceDictionary Source="ms-appx:///MoneyLover.Style/Color.xaml" />
+                <ResourceDictionary Source="ms-appx:///MoneyLover.Style/Res.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <!--  ViewModelLocator  -->
+            <vml:ViewModelLocator x:Key="VML" />
+
+        </ResourceDictionary>
+    </Application.Resources>

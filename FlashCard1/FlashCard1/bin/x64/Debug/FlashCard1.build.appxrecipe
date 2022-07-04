@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-N9VU9P4</Machine>
+    <WindowsUser>Hidro</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>8ebfa73d-404e-49ca-9e21-a72b95b6ba5a</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Hidro</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\FlashCard1.exe">
+      <PackagePath>entrypoint\FlashCard1.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\fluent.icons\1.1.110\lib\uap10.0.15063\Fluent.Icons.dll">
+      <PackagePath>Fluent.Icons.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.bcl.asyncinterfaces\6.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
+      <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.bcl.hashcode\1.1.1\lib\netstandard2.0\Microsoft.Bcl.HashCode.dll">
+      <PackagePath>Microsoft.Bcl.HashCode.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.data.sqlite.core\3.1.21\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
+      <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.dotnet.platformabstractions\3.1.6\lib\netstandard2.0\Microsoft.DotNet.PlatformAbstractions.dll">
+      <PackagePath>Microsoft.DotNet.PlatformAbstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.entityframeworkcore\3.1.21\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.entityframeworkcore.abstractions\3.1.21\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.entityframeworkcore.relational\3.1.21\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Relational.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.entityframeworkcore.sqlite.core\3.1.21\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Sqlite.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Sqlite.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.extensions.caching.abstractions\3.1.21\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.extensions.caching.memory\3.1.21\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll">
+      <PackagePath>Microsoft.Extensions.Caching.Memory.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.extensions.configuration\3.1.21\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.extensions.configuration.abstractions\3.1.21\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.extensions.configuration.binder\3.1.21\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.Binder.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.extensions.dependencyinjection\6.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\6.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.extensions.dependencymodel\3.1.6\lib\netstandard2.0\Microsoft.Extensions.DependencyModel.dll">
+      <PackagePath>Microsoft.Extensions.DependencyModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.extensions.logging\3.1.21\lib\netstandard2.0\Microsoft.Extensions.Logging.dll">
+      <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.extensions.logging.abstractions\3.1.21\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.extensions.options\3.1.21\lib\netstandard2.0\Microsoft.Extensions.Options.dll">
+      <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.extensions.primitives\3.1.21\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll">
+      <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.toolkit.mvvm\7.1.2\lib\netstandard2.0\Microsoft.Toolkit.Mvvm.dll">
+      <PackagePath>Microsoft.Toolkit.Mvvm.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.13\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\sqlitepclraw.bundle_e_sqlite3\2.0.4\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\sqlitepclraw.core\2.0.4\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.4\runtimes\win10-x64\nativeassets\uap10.0\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.0.4\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\system.collections.immutable\1.7.1\lib\netstandard2.0\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\system.diagnostics.diagnosticsource\4.7.1\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\system.runtime.compilerservices.unsafe\6.0.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\system.text.encodings.web\4.7.1\lib\netstandard2.0\System.Text.Encodings.Web.dll">
+      <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\system.text.json\4.7.2\lib\netstandard2.0\System.Text.Json.dll">
+      <PackagePath>System.Text.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore.dll">
+      <PackagePath>Uwp.HCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.Model\bin\Debug\netstandard2.0\Uwp.Model.dll">
+      <PackagePath>Uwp.Model.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore\Document\AppConfig.txt">
+      <PackagePath>Uwp.HCore\Document\AppConfig.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore\Document\NugetPackage.txt">
+      <PackagePath>Uwp.HCore\Document\NugetPackage.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\fluent.icons\1.1.110\lib\uap10.0.15063\Fluent.Icons\Fluent.Icons.xr.xml">
+      <PackagePath>Fluent.Icons\Fluent.Icons.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\Icon\Icon1.png">
+      <PackagePath>Assets\Icon\Icon1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\Icon\Icon10.png">
+      <PackagePath>Assets\Icon\Icon10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\Icon\Icon11.png">
+      <PackagePath>Assets\Icon\Icon11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\Icon\Icon12.png">
+      <PackagePath>Assets\Icon\Icon12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\Icon\Icon2.png">
+      <PackagePath>Assets\Icon\Icon2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\Icon\Icon3.png">
+      <PackagePath>Assets\Icon\Icon3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\Icon\Icon4.png">
+      <PackagePath>Assets\Icon\Icon4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\Icon\Icon5.png">
+      <PackagePath>Assets\Icon\Icon5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\Icon\Icon6.png">
+      <PackagePath>Assets\Icon\Icon6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\Icon\Icon7.png">
+      <PackagePath>Assets\Icon\Icon7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\Icon\Icon8.png">
+      <PackagePath>Assets\Icon\Icon8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\Icon\Icon9.png">
+      <PackagePath>Assets\Icon\Icon9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\Image\amazing.png">
+      <PackagePath>Assets\Image\amazing.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\Image\pumpkin.png">
+      <PackagePath>Assets\Image\pumpkin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\Image\pumpkin1.png">
+      <PackagePath>Assets\Image\pumpkin1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\FlashCard1.xr.xml">
+      <PackagePath>FlashCard1.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Color\Color.xbf">
+      <PackagePath>Color\Color.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\CardPage\Dialog\AddCardDialog.xbf">
+      <PackagePath>Pages\CardPage\Dialog\AddCardDialog.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\CardPage\Dialog\AskLearnDialog.xbf">
+      <PackagePath>Pages\CardPage\Dialog\AskLearnDialog.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\CardPage\Dialog\DeleteCardDialog.xbf">
+      <PackagePath>Pages\CardPage\Dialog\DeleteCardDialog.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\CardPage\Dialog\EditCardDialog.xbf">
+      <PackagePath>Pages\CardPage\Dialog\EditCardDialog.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\CardPage\Dialog\ResetAllDialog.xbf">
+      <PackagePath>Pages\CardPage\Dialog\ResetAllDialog.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\CardPage\MainCardPage.xbf">
+      <PackagePath>Pages\CardPage\MainCardPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\LearningPage\Dialog\CongratulationDialog.xbf">
+      <PackagePath>Pages\LearningPage\Dialog\CongratulationDialog.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\LearningPage\MainLearningPage.xbf">
+      <PackagePath>Pages\LearningPage\MainLearningPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\TopicPage\Dialog\AddTopicDialog.xbf">
+      <PackagePath>Pages\TopicPage\Dialog\AddTopicDialog.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\TopicPage\Dialog\DeleteTopicDialog.xbf">
+      <PackagePath>Pages\TopicPage\Dialog\DeleteTopicDialog.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\TopicPage\Dialog\EditTopicDialog.xbf">
+      <PackagePath>Pages\TopicPage\Dialog\EditTopicDialog.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\TopicPage\Dialog\PremiumDialog.xbf">
+      <PackagePath>Pages\TopicPage\Dialog\PremiumDialog.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\TopicPage\MainPage.xbf">
+      <PackagePath>Pages\TopicPage\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Resourses\ButtonAddImageResource.xbf">
+      <PackagePath>Resourses\ButtonAddImageResource.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Resourses\ButtonResource.xbf">
+      <PackagePath>Resourses\ButtonResource.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\String\String.xbf">
+      <PackagePath>String\String.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Style\Style.xbf">
+      <PackagePath>Style\Style.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\X64\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hidro\.nuget\packages\microsoft.ui.xaml\2.7.1\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+      <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Core\FlashCard1.exe">
+      <PackagePath>FlashCard1.exe</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\Hidro\.nuget\packages\microsoft.ui.xaml\2.7.1\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2203.17001.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2203.17001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Hidro\.nuget\packages\microsoft.ui.xaml\2.7.1\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Hidro\.nuget\packages\microsoft.ui.xaml\2.7.1\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2203.17001.0</Version>
+      <Architecture>Win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2203.17001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Hidro\.nuget\packages\microsoft.ui.xaml\2.7.1\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Hidro\.nuget\packages\microsoft.ui.xaml\2.7.1\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2203.17001.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2203.17001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Hidro\.nuget\packages\microsoft.ui.xaml\2.7.1\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Hidro\.nuget\packages\microsoft.ui.xaml\2.7.1\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2203.17001.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2203.17001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Hidro\.nuget\packages\microsoft.ui.xaml\2.7.1\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Hidro\.nuget\packages\microsoft.ui.xaml\2.7.1\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.7.appx">
+      <Name>Microsoft.UI.Xaml.2.7</Name>
+      <Version>7.2203.17001.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2203.17001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Hidro\.nuget\packages\microsoft.ui.xaml\2.7.1\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.30527.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.30527.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.30527.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.30527.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.30527.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.30527.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.30316.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.30316.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.30316.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.30316.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.30316.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.30316.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

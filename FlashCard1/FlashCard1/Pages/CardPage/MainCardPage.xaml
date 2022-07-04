@@ -1,0 +1,181 @@
+﻿<Page
+    x:Class="FlashCard1.Pages.CardPage.MainCardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FlashCard1.Pages.CardPage"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.UI.Xaml.Controls"
+    xmlns:converter="using:Uwp.HCore.Converter.ByteToObject"
+    xmlns:converter1="using:Uwp.HCore.Converter.BooleanToObject"
+    xmlns:converter2="using:Uwp.HCore.Converter.IntToObject"
+    DataContext="{Binding Source={StaticResource VML}, Path=CardPage}"
+    mc:Ignorable="d"
+    Background="White">
+    
+    <Page.Resources>
+        <converter:ByteToBitmapImageConverter x:Key="Converter1"/>
+        <converter1:BooleanToVisibility x:Key="BoolToVisibility"/>
+        <converter1:BooleanToVisibilityReverse x:Key="BoolToVisibilityReverse"/>
+        <converter2:IntToObject x:Key="IntToObject"/>
+
+        <XamlUICommand x:Name="DeleteCardXamlUiCommand" Command="{Binding OpenDeleteCardDialog}"/>
+        <XamlUICommand x:Name="EditCardXamlUiCommand" Command="{Binding OpenEditCardDialgCommand}"/>
+        
+        <MenuFlyout x:Key="FlyoutLVItem">
+            <MenuFlyoutItem Icon="Edit" Text="Edit" CommandParameter="{Binding}" Command="{StaticResource EditCardXamlUiCommand}"/>
+            <MenuFlyoutItem Icon="Delete" Text="Delete" CommandParameter="{Binding}" Command="{StaticResource DeleteCardXamlUiCommand}"/>
+        </MenuFlyout>
+    </Page.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <!--#region Header-->
+        
+        <Grid Grid.Row="0"
+              Background="{StaticResource ColorPrimary}"
+              Padding="16 6">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Orientation="Horizontal"
+                        Spacing="16"
+                        VerticalAlignment="Center">
+                <Button Style="{StaticResource NoBorderButtonStyle}"
+                        Command="{Binding GoBackMainPageCommand}">
+                    <controls:ImageIcon Width="24" Source="{Binding Source={StaticResource Icon9}}"/>
+                </Button>
+                <TextBlock Text="{Binding ATopic.Name}"
+                           FontSize="18"
+                           FontWeight="SemiBold"
+                           Foreground="White"
+                           TextTrimming="CharacterEllipsis"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1"
+                        Orientation="Horizontal"
+                        Spacing="60"
+                        BorderThickness="1"
+                        BorderBrush="Black"
+                        Padding="32 2"
+                        CornerRadius="4">
+                <TextBlock FontSize="18"
+                           Foreground="White">
+                    <Run Text="Cards:"/>
+                    <Run Text="{Binding ATopic.Cards.Count}" FontWeight="Bold"/>
+                </TextBlock>
+                <TextBlock Foreground="White"
+                           FontSize="18">
+                    <Run Text="{Binding Learndcard}" FontWeight="Bold"/>
+                    <Run Text="/"/>
+                    <Run Text="{Binding ATopic.Cards.Count}" FontWeight="Bold"/>
+                    <Run Text="Learned"/>
+                </TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Column="2"
+                        Orientation="Horizontal"
+                        HorizontalAlignment="Right"
+                        Spacing="16">
+                <Button Style="{StaticResource NoBorderButtonStyle}"
+                        Command="{Binding OpenAskLearnDialogCommand}"
+                        CommandParameter="{x:Bind Btnts}"
+                        x:Name="Btnts"
+                        CornerRadius="10">
+                    <controls:ImageIcon Width="24" Source="{Binding Source={StaticResource Icon10}}"/>
+                </Button>
+                <Button Style="{StaticResource NoBorderButtonStyle}"
+                        Command="{Binding OpenResetAllDialgCommand}"
+                        CornerRadius="10">
+                    <controls:ImageIcon Width="24" Source="{Binding Source={StaticResource Icon11}}"/>
+                </Button>
+                <Button Style="{StaticResource NoBorderButtonStyle}"
+                        Command="{Binding OpenAddCardPageDialogCommand}">
+                    <controls:ImageIcon Width="24" Source="{Binding Source={StaticResource Icon12}}"/>
+                </Button>
+            </StackPanel>
+        </Grid>
+        
+        <!--#endregion-->
+        
+        <!--#region Watting Content-->
+
+        <Grid Grid.Row="1" Visibility="{Binding DoesShowEmptyScreen, Converter={StaticResource BoolToVisibility}}">
+            <controls:ImageIcon Width="300" Source="{Binding Source={StaticResource Image2}}"/>
+        </Grid>
+        <!--#endregion-->
+        
+        <!--#region ListView-->
+        <Grid Grid.Row="1" Padding="16 0 16 16" Visibility="{Binding DoesShowEmptyScreen, Converter={StaticResource BoolToVisibilityReverse}}">
+            <ListView ItemsSource="{Binding Cards}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ListViewItem HorizontalContentAlignment="Stretch"
+                                  Style="{StaticResource ListViewItemExpanded}"
+                                  CornerRadius="4"
+                                  Padding="0"
+                                  Margin="0 16 0 0"
+                                  ContextFlyout="{StaticResource FlyoutLVItem}">
+                            <Grid Background="#e5e5e5"
+                              Padding="16 8">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="{Binding NameFront}"
+                                       FontWeight="SemiBold"
+                                       Foreground="Black"/>
+
+                                <StackPanel Grid.RowSpan="2" 
+                                        Grid.Column="1"
+                                        Orientation="Horizontal"
+                                        HorizontalAlignment="Right"
+                                        Spacing="16">
+                                    <Image Width="90" 
+                                       Height="100" 
+                                       Stretch="Uniform" 
+                                       Source="{Binding ImageFront, Converter={StaticResource Converter1}}"/>
+                                    <Grid>
+                                        <controls:ProgressRing  Height="60" Width="60" 
+                                                        Value="{Binding Progress}" 
+                                                        IsIndeterminate="False"
+                                                        Foreground="{StaticResource Color5}"
+                                                        Background="{StaticResource Color3}"/>
+                                        <TextBlock HorizontalAlignment="Center"
+                                               VerticalAlignment="Center"
+                                               Foreground="Black">
+                                        <Run Text="{Binding Progress, Converter={StaticResource IntToObject}}"/>
+                                        <Run Text="/"/>
+                                        <Run Text="5"/>
+                                        </TextBlock>
+                                    </Grid>
+
+                                    <StackPanel Orientation="Horizontal"
+                                            Spacing="12"
+                                            VerticalAlignment="Center"
+                                            BorderThickness="1"
+                                            BorderBrush="#ccc"
+                                            CornerRadius="4"
+                                            Padding="8">
+                                        <TextBlock Text="{Binding Views}" TextAlignment="Center" Foreground="Black"/>
+                                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" 
+                                              Glyph="&#xE7B3;"
+                                              Foreground="Black"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Grid>
+                        </ListViewItem>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+        <!--#endregion-->
+        
+    </Grid>
+</Page>

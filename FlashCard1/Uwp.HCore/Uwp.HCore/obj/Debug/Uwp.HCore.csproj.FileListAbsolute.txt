@@ -1,0 +1,108 @@
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore\Document\AppConfig.txt
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore\Document\NugetPackage.txt
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore.dll
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore.pdb
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore.pri
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\bin\Debug\Microsoft.UI.Xaml.Markup.winmd
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.csproj.AssemblyReference.cache
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.csproj.CoreCompileInputs.cache
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.csproj.CopyComplete
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.dll
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.pdb
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\priconfig.xml
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\priconfig.xml.intermediate
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\unfiltered.layout.resfiles
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\unfiltered.layout.resfiles.intermediate
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\filtered.layout.resfiles
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\filtered.layout.resfiles.intermediate
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\excluded.layout.resfiles
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\excluded.layout.resfiles.intermediate
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\resources.resfiles
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\resources.resfiles.intermediate
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\pri.resfiles
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\pri.resfiles.intermediate
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\qualifiers.txt
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\qualifiers.txt.intermediate
+D:\UWP Project\FlashCards\Uwp.HCore\Uwp.HCore\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\UWP Project\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore\Document\AppConfig.txt
+D:\UWP Project\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore\Document\NugetPackage.txt
+D:\UWP Project\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore.dll
+D:\UWP Project\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore.pdb
+D:\UWP Project\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore.pri
+D:\UWP Project\Uwp.HCore\Uwp.HCore\bin\Debug\Microsoft.UI.Xaml.Markup.winmd
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.csproj.AssemblyReference.cache
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.csproj.CoreCompileInputs.cache
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.csproj.CopyComplete
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.dll
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.pdb
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\priconfig.xml
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\priconfig.xml.intermediate
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\unfiltered.layout.resfiles
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\unfiltered.layout.resfiles.intermediate
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\filtered.layout.resfiles
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\filtered.layout.resfiles.intermediate
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\excluded.layout.resfiles
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\excluded.layout.resfiles.intermediate
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\resources.resfiles
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\resources.resfiles.intermediate
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\pri.resfiles
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\pri.resfiles.intermediate
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\qualifiers.txt
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\qualifiers.txt.intermediate
+D:\UWP Project\Uwp.HCore\Uwp.HCore\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore\Document\AppConfig.txt
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore\Document\NugetPackage.txt
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore.dll
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore.pdb
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore.pri
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\bin\Debug\Microsoft.UI.Xaml.Markup.winmd
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.csproj.AssemblyReference.cache
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.csproj.CoreCompileInputs.cache
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.csproj.CopyComplete
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.dll
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.pdb
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\priconfig.xml
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\priconfig.xml.intermediate
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\unfiltered.layout.resfiles
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\unfiltered.layout.resfiles.intermediate
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\filtered.layout.resfiles
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\filtered.layout.resfiles.intermediate
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\excluded.layout.resfiles
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\excluded.layout.resfiles.intermediate
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\resources.resfiles
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\resources.resfiles.intermediate
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\pri.resfiles
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\pri.resfiles.intermediate
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\qualifiers.txt
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\qualifiers.txt.intermediate
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore\Document\AppConfig.txt
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore\Document\NugetPackage.txt
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore.pdb
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.HCore.pri
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\bin\Debug\Microsoft.UI.Xaml.Markup.winmd
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.csproj.AssemblyReference.cache
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.csproj.CopyComplete
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\Uwp.HCore.pdb
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\priconfig.xml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\priconfig.xml.intermediate
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\unfiltered.layout.resfiles
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\unfiltered.layout.resfiles.intermediate
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\filtered.layout.resfiles
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\filtered.layout.resfiles.intermediate
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\excluded.layout.resfiles
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\excluded.layout.resfiles.intermediate
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\resources.resfiles
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\resources.resfiles.intermediate
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\pri.resfiles
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\pri.resfiles.intermediate
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\qualifiers.txt
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\qualifiers.txt.intermediate
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.Model.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.Model.pdb
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.Model.dll
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\bin\Debug\Uwp.Model.pdb

@@ -1,0 +1,356 @@
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Uwp.HCore\Document\AppConfig.txt
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Uwp.HCore\Document\NugetPackage.txt
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Fluent.Icons\Fluent.Icons.xr.xml
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\App.xbf
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Color\Color.xbf
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Resourses\ButtonAddImageResource.xbf
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Resourses\ButtonResource.xbf
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\String\String.xbf
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Style\Style.xbf
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\FlashCard1.xr.xml
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\FlashCard1.exe
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\FlashCard1.pdb
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\resources.pri
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\AppxManifest.xml
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Core\AppxManifest.xml
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Core\FlashCard1.exe
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\FlashCard1.build.appxrecipe
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Fluent.Icons.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Fluent.Icons.pdb
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Bcl.HashCode.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Data.Sqlite.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.EntityFrameworkCore.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.Configuration.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.DependencyModel.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.Logging.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.Options.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.Primitives.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Toolkit.Mvvm.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Toolkit.Mvvm.pdb
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\System.Runtime.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\SQLitePCLRaw.core.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\e_sqlite3.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\System.Collections.Immutable.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\System.Text.Encodings.Web.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\System.Text.Json.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Uwp.HCore.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Uwp.Model.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Uwp.HCore.pdb
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Uwp.HCore.pri
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Uwp.Model.pdb
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\FlashCard1.csproj.AssemblyReference.cache
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\App.g.i.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\App.g.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\XamlTypeInfo.g.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\App.xaml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Color\Color.xaml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Resourses\ButtonAddImageResource.xaml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Resourses\ButtonResource.xaml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\String\String.xaml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Style\Style.xaml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\App.xbf
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Color\Color.xbf
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Resourses\ButtonAddImageResource.xbf
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Resourses\ButtonResource.xbf
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\String\String.xbf
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Style\Style.xbf
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\XamlSaveStateFile.xml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\FlashCard1.csproj.CoreCompileInputs.cache
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\FlashCard1.csproj.CopyComplete
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Uwp.HCore.pri.xml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Fluent.Icons.pri.xml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Microsoft.UI.Xaml.pri.xml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\FlashCard1.exe
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\FlashCard1.pdb
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\ResourceHandlingTask.state
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\priconfig.xml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\priconfig.xml.intermediate
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\unfiltered.layout.resfiles
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\filtered.layout.resfiles
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\filtered.layout.resfiles.intermediate
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\excluded.layout.resfiles
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\excluded.layout.resfiles.intermediate
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\resources.resfiles
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\resources.resfiles.intermediate
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\pri.resfiles
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\pri.resfiles.intermediate
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\qualifiers.txt
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\qualifiers.txt.intermediate
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\ProjectArchitectures.txt
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424563200000000.json
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Xaml.Interactions.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Xaml.Interactions.pdb
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Xaml.Interactivity.dll
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Xaml.Interactivity.pdb
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Microsoft.Xaml.Interactions.pri.xml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Microsoft.Xaml.Interactivity.pri.xml
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\CardPage\MainCardPage.xbf
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\MainCardPage.g.i.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\MainCardPage.g.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\MainCardPage.xaml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\MainCardPage.xbf
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\CardPage\Dialog\AddCardDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\AddCardDialog.g.i.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\AddCardDialog.g.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\AddCardDialog.xaml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\AddCardDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\CardPage\Dialog\AskLearnDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\AskLearnDialog.g.i.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\AskLearnDialog.g.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\AskLearnDialog.xaml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\AskLearnDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\CardPage\Dialog\ResetAllDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\ResetAllDialog.g.i.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\ResetAllDialog.g.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\ResetAllDialog.xaml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\ResetAllDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\LearningPage\MainLearningPage.xbf
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\LearningPage\MainLearningPage.g.i.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\LearningPage\MainLearningPage.g.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\LearningPage\MainLearningPage.xaml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\LearningPage\MainLearningPage.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Uwp.HCore\Document\AppConfig.txt
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Uwp.HCore\Document\NugetPackage.txt
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Fluent.Icons\Fluent.Icons.xr.xml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\App.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Color\Color.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Pages\CardPage\Dialog\AddCardDialog.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Pages\CardPage\Dialog\AskLearnDialog.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Pages\CardPage\Dialog\ResetAllDialog.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Pages\CardPage\MainCardPage.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Pages\LearningPage\MainLearningPage.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Resourses\ButtonAddImageResource.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Resourses\ButtonResource.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\String\String.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Style\Style.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\FlashCard1.xr.xml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\FlashCard1.exe
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\FlashCard1.pdb
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\resources.pri
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\AppxManifest.xml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Core\AppxManifest.xml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Core\FlashCard1.exe
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\FlashCard1.build.appxrecipe
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Fluent.Icons.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Fluent.Icons.pdb
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Bcl.HashCode.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Data.Sqlite.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.EntityFrameworkCore.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.Configuration.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.DependencyModel.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.Logging.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.Options.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Extensions.Primitives.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Toolkit.Mvvm.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Toolkit.Mvvm.pdb
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Xaml.Interactions.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Xaml.Interactions.pdb
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Xaml.Interactivity.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.Xaml.Interactivity.pdb
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\System.Runtime.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\SQLitePCLRaw.core.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\e_sqlite3.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\System.Collections.Immutable.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\System.Text.Encodings.Web.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\System.Text.Json.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Uwp.HCore.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Uwp.Model.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Uwp.HCore.pdb
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Uwp.HCore.pri
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Uwp.Model.pdb
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\FlashCard1.csproj.AssemblyReference.cache
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\App.g.i.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\App.g.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\AddCardDialog.g.i.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\AddCardDialog.g.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\AskLearnDialog.g.i.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\AskLearnDialog.g.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\ResetAllDialog.g.i.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\ResetAllDialog.g.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\MainCardPage.g.i.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\MainCardPage.g.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\LearningPage\MainLearningPage.g.i.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\LearningPage\MainLearningPage.g.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\XamlTypeInfo.g.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\App.xaml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Color\Color.xaml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\AddCardDialog.xaml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\AskLearnDialog.xaml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\ResetAllDialog.xaml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\MainCardPage.xaml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\LearningPage\MainLearningPage.xaml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Resourses\ButtonAddImageResource.xaml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Resourses\ButtonResource.xaml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\String\String.xaml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Style\Style.xaml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\App.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Color\Color.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\AddCardDialog.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\AskLearnDialog.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\ResetAllDialog.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\MainCardPage.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\LearningPage\MainLearningPage.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Resourses\ButtonAddImageResource.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Resourses\ButtonResource.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\String\String.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Style\Style.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\XamlSaveStateFile.xml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\FlashCard1.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\FlashCard1.csproj.CopyComplete
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Uwp.HCore.pri.xml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Fluent.Icons.pri.xml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Microsoft.UI.Xaml.pri.xml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Microsoft.Xaml.Interactions.pri.xml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Microsoft.Xaml.Interactivity.pri.xml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\FlashCard1.exe
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\FlashCard1.pdb
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\ResourceHandlingTask.state
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\priconfig.xml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\priconfig.xml.intermediate
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\unfiltered.layout.resfiles
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\filtered.layout.resfiles
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\filtered.layout.resfiles.intermediate
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\excluded.layout.resfiles
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\excluded.layout.resfiles.intermediate
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\resources.resfiles
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\resources.resfiles.intermediate
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\pri.resfiles
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\pri.resfiles.intermediate
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\qualifiers.txt
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\qualifiers.txt.intermediate
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\ProjectArchitectures.txt
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424563200000000.json
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\FxResources.Microsoft.Bcl.HashCode.SR.resw
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Microsoft.Data.Sqlite\en-US\Microsoft.Data.Sqlite.Properties.Resources.resw
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Microsoft.EntityFrameworkCore\en-US\Microsoft.EntityFrameworkCore.Properties.CoreStrings.resw
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Microsoft.EntityFrameworkCore.Abstractions\en-US\Microsoft.EntityFrameworkCore.Properties.AbstractionsStrings.resw
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Microsoft.EntityFrameworkCore.Relational\en-US\Microsoft.EntityFrameworkCore.Properties.RelationalStrings.resw
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Microsoft.EntityFrameworkCore.Sqlite\en-US\Microsoft.EntityFrameworkCore.Sqlite.Properties.SqliteStrings.resw
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Microsoft.Extensions.Configuration\en-US\Microsoft.Extensions.Configuration.Resources.resw
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Microsoft.Extensions.Configuration.Binder\en-US\Microsoft.Extensions.Configuration.Binder.Resources.resw
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\FxResources.Microsoft.Extensions.DependencyInjection.SR.resw
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\FxResources.Microsoft.Extensions.DependencyInjection.Abstractions.SR.resw
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Microsoft.Extensions.Logging.Abstractions\en-US\Microsoft.Extensions.Logging.Abstractions.Resource.resw
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Microsoft.Extensions.Options\en-US\Microsoft.Extensions.Options.Resources.resw
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Microsoft.Extensions.Primitives\en-US\Microsoft.Extensions.Primitives.Resources.resw
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\FxResources.System.Collections.Immutable.SR.resw
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\FxResources.System.Diagnostics.DiagnosticSource.SR.resw
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\FxResources.System.Text.Json.SR.resw
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Pages\TopicPage\MainPage.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\MainPage.g.i.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\MainPage.g.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\MainPage.xaml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\MainPage.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Pages\TopicPage\Dialog\AddTopicDialog.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\AddTopicDialog.g.i.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\AddTopicDialog.g.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\AddTopicDialog.xaml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\AddTopicDialog.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\PremiumDialog.g.i.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\PremiumDialog.g.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\PremiumDialog.xaml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\PremiumDialog.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Pages\TopicPage\Dialog\PremiumDialog.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\DeleteTopicDialog.g.i.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\DeleteTopicDialog.g.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\DeleteTopicDialog.xaml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\DeleteTopicDialog.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Pages\TopicPage\Dialog\DeleteTopicDialog.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Pages\TopicPage\Dialog\EditTopicDialog.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\EditTopicDialog.g.i.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\EditTopicDialog.g.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\EditTopicDialog.xaml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\EditTopicDialog.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Pages\CardPage\Dialog\DeleteCardDialog.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\DeleteCardDialog.g.i.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\DeleteCardDialog.g.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\DeleteCardDialog.xaml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\DeleteCardDialog.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Pages\CardPage\Dialog\EditCardDialog.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\EditCardDialog.g.i.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\EditCardDialog.g.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\EditCardDialog.xaml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\EditCardDialog.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\LearningPage\Dialog\CongratulationDialog.g.i.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\LearningPage\Dialog\CongratulationDialog.g.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\LearningPage\Dialog\CongratulationDialog.xaml
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\obj\x64\Debug\Pages\LearningPage\Dialog\CongratulationDialog.xbf
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\FlashCard1\bin\x64\Debug\Pages\LearningPage\Dialog\CongratulationDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\CardPage\Dialog\DeleteCardDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\CardPage\Dialog\EditCardDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\LearningPage\Dialog\CongratulationDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\TopicPage\Dialog\AddTopicDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\TopicPage\Dialog\DeleteTopicDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\TopicPage\Dialog\EditTopicDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\TopicPage\Dialog\PremiumDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\bin\x64\Debug\Pages\TopicPage\MainPage.xbf
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\DeleteCardDialog.g.i.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\DeleteCardDialog.g.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\EditCardDialog.g.i.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\EditCardDialog.g.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\LearningPage\Dialog\CongratulationDialog.g.i.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\LearningPage\Dialog\CongratulationDialog.g.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\AddTopicDialog.g.i.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\AddTopicDialog.g.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\DeleteTopicDialog.g.i.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\DeleteTopicDialog.g.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\EditTopicDialog.g.i.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\EditTopicDialog.g.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\PremiumDialog.g.i.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\PremiumDialog.g.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\MainPage.g.i.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\MainPage.g.cs
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\DeleteCardDialog.xaml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\EditCardDialog.xaml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\LearningPage\Dialog\CongratulationDialog.xaml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\AddTopicDialog.xaml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\DeleteTopicDialog.xaml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\EditTopicDialog.xaml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\PremiumDialog.xaml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\MainPage.xaml
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\DeleteCardDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\CardPage\Dialog\EditCardDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\LearningPage\Dialog\CongratulationDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\AddTopicDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\DeleteTopicDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\EditTopicDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\Dialog\PremiumDialog.xbf
+D:\UWP Project\FlashCard1\FlashCard1\obj\x64\Debug\Pages\TopicPage\MainPage.xbf

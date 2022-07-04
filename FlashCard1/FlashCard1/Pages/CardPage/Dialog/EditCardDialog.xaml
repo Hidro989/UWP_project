@@ -1,0 +1,186 @@
+﻿<ContentDialog
+    x:Class="FlashCard1.Pages.CardPage.Dialog.EditCardDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FlashCard1.Pages.CardPage.Dialog"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:converter="using:Uwp.HCore.Converter.BooleanToObject" 
+    xmlns:converter1="using:Uwp.HCore.Converter.ByteToObject" 
+    xmlns:controls="using:Microsoft.UI.Xaml.Controls"
+    DataContext="{Binding Source={StaticResource VML}, Path=EditCardDialog}"
+    Loaded="EditCardDialog1_Loaded"
+    mc:Ignorable="d"
+    CornerRadius="4"
+    x:Name="EditCardDialog1"
+    >
+
+    <ContentDialog.Resources>
+        <Storyboard x:Name="RectangleAnimation">
+            <DoubleAnimation Storyboard.TargetName="RectangeleTranslate"
+                             Storyboard.TargetProperty="X"
+                             From="0"
+                             To="134"
+                             Duration="00:00:0.2"/>
+        </Storyboard>
+        <Storyboard x:Name="RectangleAnimation1">
+            <DoubleAnimation Storyboard.TargetName="RectangeleTranslate"
+                             Storyboard.TargetProperty="X"
+                             From="134"
+                             To="0"
+                             Duration="00:00:0.2"/>
+        </Storyboard>
+        <converter:BooleanToVisibility x:Key="Converter1"/>
+        <converter:BooleanToVisibilityReverse x:Key="Converter2"/>
+        <converter1:ByteToBitmapImageConverter  x:Key="Converter3"/>
+
+    </ContentDialog.Resources>
+
+    <Grid RowSpacing="20" HorizontalAlignment="Center" Width="270">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <!--#region Header-->
+        <TextBlock Text="Edit Card"
+                   Style="{StaticResource LargeText}"
+                   TextAlignment="Center"
+                   FontWeight="SemiBold"/>
+        <!--#endregion-->
+
+        <!--#region Button Change Visibility-->
+        <Grid Grid.Row="1" HorizontalAlignment="Center">
+            <Rectangle Width="134" Height="32" Fill="{StaticResource Color5}" HorizontalAlignment="Left" RadiusX="4" RadiusY="4">
+                <Rectangle.RenderTransform>
+                    <TranslateTransform x:Name="RectangeleTranslate"/>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Front" Width="134"
+                        CornerRadius="4 0 0 4"
+                        BorderThickness="1 1 0 1"
+                        Click="Button_Click_1"
+                        Background="Transparent"
+                        Command="{Binding ShowFrontCard}"/>
+                <Button Content="Back" Width="134"
+                        CornerRadius="0 4 4 0"
+                        BorderThickness="0 1 1 1"
+                        Click="Button_Click_2"
+                        Background="Transparent"
+                        Command="{Binding ShowBackCard}"/>
+            </StackPanel>
+        </Grid>
+        <!--#endregion-->
+
+
+        <!--#region Card Front-->
+        <ScrollViewer MaxHeight="500" Grid.Row="2" Visibility="{Binding DoesShow,Converter={StaticResource Converter1}}">
+            <StackPanel 
+                    Orientation="Vertical"
+                    Spacing="12"
+                    >
+            <TextBox Header="Card Name"
+                     PlaceholderText="Enter name"
+                     Text="{Binding CardItem.NameFront, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <RichEditBox Header="Description"
+                         PlaceholderText="Description of the card"
+                         MinHeight="120"
+                         Tag="{Binding CardItem.DesFront, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                         LostFocus="RichEditBox_LostFocus_1"
+                         x:Name="RichFront"
+                         Width="270"/>
+            <Grid Visibility="{Binding DoesShowImageFront, Converter={StaticResource Converter1}}">
+                <Button HorizontalAlignment="Right"
+                        VerticalAlignment="Top"
+                        Padding="2"
+                        Background="Black"
+                        Command="{Binding CancelShowImageFront}">
+                    <FontIcon Glyph="&#xE711;" Foreground="#ccc"/>
+                </Button>
+                <Image Height="120" Stretch="Uniform"  Source="{Binding ImageFrontItem, Converter={StaticResource Converter3}}"/>
+            </Grid>
+
+            <Button Style="{StaticResource AddImageButtonStyle}"
+                    Command="{Binding AddPictureFront}">
+                <Button.Resources>
+                    <ResourceDictionary Source="{Binding Source={StaticResource ButtonAddImageResource}}"/>
+                </Button.Resources>
+                <StackPanel Orientation="Horizontal"
+                            Spacing="8">
+                    <controls:ImageIcon Width="16" Source="{Binding Source={StaticResource Icon3}}"/>
+                    <TextBlock Text="Add Image"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+        </ScrollViewer>
+        <!--#endregion-->
+
+        <!--#region Card Back-->
+        <ScrollViewer MaxHeight="500" Grid.Row="2" Visibility="{Binding DoesShow,Converter={StaticResource Converter2}}">
+            <StackPanel
+                    Orientation="Vertical"
+                    Spacing="12"
+                    HorizontalAlignment="Center">
+            <TextBox Header="Card Name"
+                     PlaceholderText="Enter name"
+                     Text="{Binding CardItem.NameBack, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <RichEditBox Header="Description"
+                         PlaceholderText="Description of the card"
+                         MinHeight="120"
+                         Width="270"
+                         Tag="{Binding CardItem.DesBack, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                         LostFocus="RichEditBox_LostFocus"
+                         x:Name="RichBack"/>
+            <Grid Visibility="{Binding DoesShowImageBack, Converter={StaticResource Converter1}}">
+                <Button HorizontalAlignment="Right"
+                        VerticalAlignment="Top"
+                        Padding="2"
+                        Background="Black"
+                        Command="{Binding CancelShowImageBack}">
+                    <FontIcon Glyph="&#xE711;" Foreground="#ccc"/>
+                </Button>
+                <Image Height="120" Stretch="Uniform" Source="{Binding ImageBackItem, Converter={StaticResource Converter3}}"/>
+            </Grid>
+
+            <Button Style="{StaticResource AddImageButtonStyle}"
+                    Command="{Binding AddPictureBack}">
+                <Button.Resources>
+                    <ResourceDictionary Source="{Binding Source={StaticResource ButtonAddImageResource}}"/>
+                </Button.Resources>
+                <StackPanel Orientation="Horizontal"
+                            Spacing="8">
+                    <controls:ImageIcon Width="16" Source="{Binding Source={StaticResource Icon3}}"/>
+                    <TextBlock Text="Add Image"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+        </ScrollViewer>
+        <!--#endregion-->
+
+        <!--#region Button-->
+        <Grid Grid.Row="3" Margin="0 10 0 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Style="{StaticResource AcceptButtonStyle}"
+                    Command="{Binding AcceptSaveData}"
+                    CommandParameter="{Binding ElementName=EditCardDialog1}">
+                <Button.Resources>
+                    <ResourceDictionary Source="{Binding Source={StaticResource ButtonAcceptResource}}"/>
+                </Button.Resources>
+                <TextBlock Text="Accept"/>
+            </Button>
+            <Button Content="Cancel"
+                    Style="{StaticResource CancelButtonStyle}"
+                    Grid.Column="1"
+                    HorizontalAlignment="Right"
+                    Command="{Binding CancelCommand}"
+                    CommandParameter="{Binding ElementName=EditCardDialog1}"/>
+        </Grid>
+        <!--#endregion-->
+    </Grid>
+</ContentDialog>

@@ -1,0 +1,6 @@
+﻿
+--> Button Accept <---
+ms-appx:///Resourses/ButtonResource.xaml
+
+--> Button AddImage <---
+ms-appx:///Resourses/ButtonAddImageResource.xaml

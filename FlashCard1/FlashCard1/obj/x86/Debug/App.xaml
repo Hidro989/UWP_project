@@ -1,0 +1,25 @@
+﻿<Application
+    x:Class="FlashCard1.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FlashCard1"
+    xmlns:controls="using:Microsoft.UI.Xaml.Controls" 
+    xmlns:vml="using:FlashCard1.VML">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <ResourceDictionary.MergedDictionaries>
+                <controls:XamlControlsResources ControlsResourcesVersion="Version2"/>
+
+                <ResourceDictionary Source="ms-appx:///Color/Color.xaml"/>
+                <ResourceDictionary Source="ms-appx:///Style/Style.xaml"/>
+                <ResourceDictionary Source="ms-appx:///String/String.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <!--  ViewModelLocator  -->
+            <vml:ViewModelLocator x:Key="VML" />
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+

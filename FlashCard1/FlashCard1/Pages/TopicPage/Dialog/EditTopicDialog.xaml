@@ -1,0 +1,73 @@
+﻿<ContentDialog
+    x:Class="FlashCard1.Pages.TopicPage.Dialog.EditTopicDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FlashCard1.Pages.TopicPage.Dialog"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    DataContext="{Binding Source={StaticResource VML}, Path=EditTopicDialog}"
+    mc:Ignorable="d"
+    CornerRadius="4"
+    x:Name="EditTopicDialog1">
+
+    <Grid RowSpacing="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Edit Topic" 
+                   Style="{StaticResource LargeText}"
+                   HorizontalAlignment="Center"
+                   Grid.Row="0"/>
+        <Grid Grid.Row="1"
+              RowSpacing="16">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBox Grid.Row="0" 
+                     Header="Topic Name"
+                     PlaceholderText="Enter Name"
+                     Text="{Binding ATopic.Name, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+            <ComboBox Grid.Row="1" 
+                      Header="Color"
+                      Width="270"
+                      ItemsSource="{Binding Colors.ListColor}"
+                      SelectedItem="{Binding SelectedColor, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <Rectangle Width="16"
+                                       Height="16"
+                                       Fill="{Binding Code}"/>
+                            <TextBlock Text="{Binding Name}" Style="{StaticResource SmallText}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+        </Grid>
+        <Grid Grid.Row="2" Margin="0 20 0 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Accept" 
+                    Style="{StaticResource AcceptButtonStyle}"
+                    Grid.Column="0"
+                    Command="{Binding AcceptSaveData}"
+                    CommandParameter="{Binding ElementName=EditTopicDialog1}">
+                <Button.Resources>
+                    <ResourceDictionary Source="{Binding Source={StaticResource ButtonAcceptResource}}"/>
+                </Button.Resources>
+            </Button>
+            <Button Grid.Column="1"
+                    Content="Cancel"
+                    Style="{StaticResource CancelButtonStyle}"
+                    HorizontalAlignment="Right"
+                    Command="{Binding CancelCommand}"
+                    CommandParameter="{Binding ElementName=EditTopicDialog1}"/>
+
+        </Grid>
+    </Grid>
+</ContentDialog>

@@ -1,0 +1,2 @@
+D:\UWP Project\FlashCard1\FlashCard1\FlashCard1.csproj;x86
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.HCore\Uwp.HCore.csproj;x86

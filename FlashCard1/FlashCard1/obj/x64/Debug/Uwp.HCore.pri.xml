@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Uwp.HCore" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Uwp.HCore">
+				<ResourceMapSubtree name="Document">
+					<NamedResource name="AppConfig.txt" uri="ms-resource://Uwp.HCore/Files/Uwp.HCore/Document/AppConfig.txt">
+						<Candidate type="Path">
+							<Value>Uwp.HCore\Document\AppConfig.txt</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="NugetPackage.txt" uri="ms-resource://Uwp.HCore/Files/Uwp.HCore/Document/NugetPackage.txt">
+						<Candidate type="Path">
+							<Value>Uwp.HCore\Document\NugetPackage.txt</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

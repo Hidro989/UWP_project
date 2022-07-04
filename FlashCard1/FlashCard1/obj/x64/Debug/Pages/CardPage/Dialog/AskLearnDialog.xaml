@@ -1,0 +1,65 @@
+﻿<ContentDialog x:ConnectionId='1'
+    x:Class="FlashCard1.Pages.CardPage.Dialog.AskLearnDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FlashCard1.Pages.CardPage.Dialog"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.UI.Xaml.Controls"
+    mc:Ignorable="d"
+    CornerRadius="4"
+    x:Name="AskLearnDialog1">
+
+    <Grid RowSpacing="16">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Vertical"
+                    Spacing="16">
+            <TextBlock Text="How do you want to learn?"
+                       TextAlignment="Center"
+                       Style="{StaticResource LargeText}"
+                       />
+            <ComboBox x:ConnectionId='5' Width="285" 
+                      x:Name="ComboboxMode"
+                                                                      >
+                
+            </ComboBox>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <TextBlock Text="Please select from the options below"
+                       TextAlignment="Center"
+                       Style="{StaticResource LargeText}"
+                       TextWrapping="Wrap"
+                       Width="270"/>
+            <controls:RadioButtons x:ConnectionId='4'                                                 >
+                <RadioButton Content="All cards" IsChecked="True"/>
+                <RadioButton Content="Not learnt"/>
+                <RadioButton Content="Random 20 not learnt"/>
+                <RadioButton Content="Random 10 not learnt"/>
+                <RadioButton Content="Random 5 not learnt"/>
+            </controls:RadioButtons>
+        </StackPanel>
+        <Grid Grid.Row="2" Margin="0 10 0 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='2' Style="{StaticResource AcceptButtonStyle}"
+                                          >
+                <Button.Resources>
+                    <ResourceDictionary Source="{Binding Source={StaticResource ButtonAcceptResource}}"/>
+                </Button.Resources>
+                <TextBlock Text="Accept"/>
+            </Button>
+            <Button x:ConnectionId='3' Content="Cancel"
+                    Style="{StaticResource CancelButtonStyle}"
+                    Grid.Column="1"
+                    HorizontalAlignment="Right"
+                                        />
+        </Grid>
+    </Grid>
+</ContentDialog>
+

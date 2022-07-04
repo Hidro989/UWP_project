@@ -1,0 +1,20 @@
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.Model\bin\Debug\netstandard2.0\Uwp.Model.deps.json
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.Model\bin\Debug\netstandard2.0\Uwp.Model.dll
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.Model\bin\Debug\netstandard2.0\Uwp.Model.pdb
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.Model\obj\Debug\netstandard2.0\Uwp.Model.csproj.AssemblyReference.cache
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.Model\obj\Debug\netstandard2.0\Uwp.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.Model\obj\Debug\netstandard2.0\Uwp.Model.AssemblyInfoInputs.cache
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.Model\obj\Debug\netstandard2.0\Uwp.Model.AssemblyInfo.cs
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.Model\obj\Debug\netstandard2.0\Uwp.Model.csproj.CoreCompileInputs.cache
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.Model\obj\Debug\netstandard2.0\Uwp.Model.dll
+D:\UWP Project\FlashCard1\Uwp.HCore\Uwp.Model\obj\Debug\netstandard2.0\Uwp.Model.pdb
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.Model\bin\Debug\netstandard2.0\Uwp.Model.deps.json
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.Model\bin\Debug\netstandard2.0\Uwp.Model.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.Model\bin\Debug\netstandard2.0\Uwp.Model.pdb
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.Model\obj\Debug\netstandard2.0\Uwp.Model.csproj.AssemblyReference.cache
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.Model\obj\Debug\netstandard2.0\Uwp.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.Model\obj\Debug\netstandard2.0\Uwp.Model.AssemblyInfoInputs.cache
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.Model\obj\Debug\netstandard2.0\Uwp.Model.AssemblyInfo.cs
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.Model\obj\Debug\netstandard2.0\Uwp.Model.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.Model\obj\Debug\netstandard2.0\Uwp.Model.dll
+D:\WorkSpace\Microsoft-Team-Projects\FlashCard1\Uwp.HCore\Uwp.Model\obj\Debug\netstandard2.0\Uwp.Model.pdb

@@ -1,0 +1,191 @@
+﻿<Page
+    x:Class="FlashCard1.Pages.LearningPage.MainLearningPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FlashCard1.Pages.LearningPage"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.UI.Xaml.Controls"
+    xmlns:converter="using:Uwp.HCore.Converter.BooleanToObject"
+    xmlns:converter1="using:Uwp.HCore.Converter.ByteToObject"
+    DataContext="{Binding Source={StaticResource VML}, Path=MainLearnPage}"
+    mc:Ignorable="d"
+    Background="{Binding ColorBackground}">
+
+    <Page.Resources>
+        <converter:BooleanToVisibility x:Key="BooleanToVisibility"/>
+        <converter:BooleanToVisibilityReverse x:Key="BooleanToVisibilityReverse"/>
+        <converter1:ByteToBitmapImageConverter x:Key="ByteToBitmapImageConverter"/>
+        
+    </Page.Resources>
+    
+    <Grid RowSpacing="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <!--#region Header -->
+        <Grid Background="{StaticResource ColorPrimary}"
+              Padding="16 8">
+            <Button Style="{StaticResource NoBorderButtonStyle}"
+                    Command="{Binding GoBack}">
+                <controls:ImageIcon Height="24" Source="{Binding Source={StaticResource Icon9}}"/>
+            </Button>
+            <TextBlock Text="Learning" 
+                       Grid.Column="1"
+                       HorizontalAlignment="Center"
+                       FontSize="20"
+                       Foreground="White"/>
+        </Grid>
+        <!--#endregion-->
+        
+        
+        <Grid Grid.Row="1" RowSpacing="40" Padding="16 0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <!--#region Card Front-->
+            <ScrollViewer Visibility="{Binding DoesShow, Converter={StaticResource BooleanToVisibility}}"
+                          MaxHeight="600"
+                          >
+                <StackPanel MinWidth="618"
+                        Orientation="Vertical"
+                        BorderBrush="#e5e5e5"
+                        BorderThickness="2"
+                        HorizontalAlignment="Center"
+                        Spacing="24"
+                        CornerRadius="12"
+                        Padding="90 16"
+                        >
+                <TextBlock Text="{Binding SelectedCard.NameFront}"
+                           Style="{StaticResource LargeText}"
+                           TextAlignment="Center"
+                           FontWeight="Bold"
+                           TextWrapping="Wrap"
+                           Foreground="{Binding ColorLetter}"/>
+                <Image Width="280" Source="{Binding SelectedCard.ImageFront, Converter={StaticResource ByteToBitmapImageConverter}}"/>
+                <TextBlock Text="{Binding SelectedCard.DesFront}"
+                           TextAlignment="Center"
+                           TextWrapping="Wrap"
+                           FontSize="16"
+                           Foreground="{Binding ColorLetter}"/>
+            </StackPanel>
+                
+            </ScrollViewer>
+            <!--#endregion-->
+            
+            <!--#region Card Back-->
+            <ScrollViewer Visibility="{Binding DoesShow, Converter={StaticResource BooleanToVisibilityReverse}}"
+                          MaxHeight="600">
+                
+            <StackPanel MinWidth="618"
+                        Orientation="Vertical"
+                        BorderBrush="#e5e5e5"
+                        BorderThickness="2"
+                        HorizontalAlignment="Center"
+                        Spacing="24"
+                        CornerRadius="12"
+                        Padding="90 16"
+                        >
+                <TextBlock Text="{Binding SelectedCard.NameBack}"
+                           Style="{StaticResource LargeText}"
+                           TextAlignment="Center"
+                           FontWeight="Bold"
+                           TextWrapping="Wrap"
+                           Foreground="{Binding ColorLetter}"/>
+                <Image Width="280" Source="{Binding SelectedCard.ImageBack, Converter={StaticResource ByteToBitmapImageConverter}}"/>
+                <TextBlock Text="{Binding SelectedCard.DesBack}"
+                           TextAlignment="Center"
+                           TextWrapping="Wrap"
+                           FontSize="16"
+                           Foreground="{Binding ColorLetter}"/>
+            </StackPanel>
+            </ScrollViewer>
+            <!--#endregion-->
+            
+            <!--#region Progess-->
+            <Grid Grid.Row="1" HorizontalAlignment="Center">
+                <controls:ProgressBar Width="500" 
+                                      Value="{Binding SelectedCard.Progress}" 
+                                      Foreground="{StaticResource ColorPrimary}"
+                                      Background="#ccc">
+                    <controls:ProgressBar.RenderTransform>
+                        <ScaleTransform ScaleX="1" ScaleY="2"/>
+                    </controls:ProgressBar.RenderTransform>
+                </controls:ProgressBar>
+            </Grid>
+            <!--#endregion-->
+            
+            <!--#region Controls Content -->
+            <Grid Grid.Row="2" Margin="0 0 0 24">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button Style="{StaticResource NoBorderButtonStyle}"
+                        HorizontalAlignment="Center"
+                        CornerRadius="16"
+                        Command="{Binding OpenEditCardDialog}">
+                    <Grid Background="White" CornerRadius="16">
+                        <Ellipse Width="38" Height="38" StrokeThickness="1" Stroke="#ccc"/>
+                        <FontIcon Glyph="&#xE70f;" FontSize="16" FontWeight="SemiBold"/>
+                    </Grid>
+                </Button>
+                <Button Grid.Column="1"
+                        HorizontalAlignment="Center"
+                        Width="120"
+                        Padding="0 4"
+                        CornerRadius="12"
+                        Command="{Binding NeedPracticeCommad}"
+                        Background="White"
+                        BorderBrush="#ccc">
+                    <StackPanel Orientation="Vertical">
+                        <controls:ImageIcon Width="28" Source="{Binding Source={StaticResource Icon5}}"/>
+                        <TextBlock Text="Need Practice"/>
+                    </StackPanel>
+                </Button>
+                <Button Grid.Column="2"
+                        HorizontalAlignment="Center"
+                        Style="{StaticResource NoBorderButtonStyle}"
+                        Command="{Binding FlipCommad}"
+                        CornerRadius="30">
+                    <Grid Background="White" CornerRadius="30">
+                        <Ellipse Width="60" Height="60" StrokeThickness="1" Stroke="#ccc"/>
+                        <controls:ImageIcon Width="32" Source="{Binding Source={StaticResource Icon6}}"/>
+                    </Grid>
+                </Button>
+                <Button Grid.Column="3"
+                        HorizontalAlignment="Center"
+                        Width="120"
+                        Padding="0 4"
+                        CornerRadius="12"
+                        Command="{Binding LeanedCommand}"
+                        Background="White"
+                        BorderBrush="#ccc">
+                    <StackPanel Orientation="Vertical">
+                        <controls:ImageIcon Width="28" Source="{Binding Source={StaticResource Icon7}}"/>
+                        <TextBlock Text="Learned"/>
+                    </StackPanel>
+                </Button>
+                <Button Grid.Column="4" 
+                        Style="{StaticResource NoBorderButtonStyle}"
+                        HorizontalAlignment="Center"
+                        Command="{Binding HandleBackground}"
+                        CornerRadius="16">
+                    <Grid Background="{Binding ColorMode}" CornerRadius="16">
+                        <Ellipse Width="38" Height="38" StrokeThickness="1" Stroke="#ccc"/>
+                        <controls:ImageIcon Width="16" Source="{Binding Source={StaticResource Icon8}}"/>
+                    </Grid>
+                </Button>
+            </Grid>
+            <!--#endregion-->
+            
+        </Grid>
+    </Grid>
+</Page>
